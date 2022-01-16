@@ -1,0 +1,45 @@
+#search-input-group .form-control,
+#search-input-group #search-button {
+  font-size: 1.25rem;
+}
+
+#search-input-group {
+  border-radius: 0;
+  border-style: none none solid none;
+  border-color: #953737;
+  border-width: 2px;
+  transition: background-color 0.5s;
+}
+
+#search-input-group:hover,
+#search-input-group:hover,
+#search-input-group:focus,
+#search-input-group:active {
+  background-color: white;
+}
+
+#search-input,
+#search-button {
+  border: none;
+  background-color: transparent;
+}
+
+#search-input:focus {
+  box-shadow: none;
+}
+
+#search-button {
+  color: #953737;
+  border-radius: 0;
+}
+
+#search-button:hover,
+#search-button:focus,
+#search-button:active {
+  color: #222336;
+}
+
+#search-button:focus,
+#search-button:active {
+  box-shadow: 0 0 0 0.2rem rgba(34, 35, 54, 0.25);
+}
